@@ -1,0 +1,15 @@
+# Data Stored inside $HOME\.ssh\config
+
+# Personal server
+Host dremio
+    HostName 192.168.1.11
+    User walid
+    Port 22
+    IdentityFile ~/.ssh/id_ed25519
+
+# Work server
+Host work
+    HostName work.example.com
+    User ec2-user
+    Port 2222
+    IdentityFile ~/.ssh/work_key.pem
